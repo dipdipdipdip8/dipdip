@@ -1,71 +1,113 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-    <meta charset="UTF-8">
-    <title>Diploma</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 50px;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px;
-            border: 2px solid black;
-        }
-        .title {
-            text-align: center;
-            font-size: 28px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        .section {
-            margin-top: 30px;
-        }
-        .field {
-            margin: 10px 0;
-        }
-        .label {
-            font-weight: bold;
-        }
-        .qr {
-            margin-top: 40px;
-            text-align: right;
-        }
-        .qr img {
-            width: 150px;
-            height: 150px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Diploma</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      background: white;
+      margin: 40px;
+      color: #000;
+    }
+
+    .diploma {
+      max-width: 800px;
+      margin: auto;
+      border: 2px solid #000;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      display: flex;
+      margin-bottom: 12px;
+    }
+
+    .label {
+      width: 250px;
+      font-weight: bold;
+    }
+
+    .value {
+      border-bottom: 1px solid #000;
+      flex: 1;
+      min-height: 24px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">Diploma Ma'lumotlari</div>
+  <div class="diploma">
+    <h2>Diplom Ma'lumotlari</h2>
 
-        <div class="section">
-            <div class="field"><span class="label">Talaba (Ism Familya):</span> OYTUN YELDAN</div>
-            <div class="field"><span class="label">Tug‘ilgan sana:</span> 09.09.2002</div>
-            <div class="field"><span class="label">O‘qishga kirgan yili:</span> 2020</div>
-            <div class="field"><span class="label">Diplom raqami:</span> 23423452</div>
-            <div class="field"><span class="label">O‘rtacha ball:</span> 3.2</div>
-            <div class="field"><span class="label">Qayd sanasi:</span> 2024</div>
-        </div>
-
-        <div class="section">
-            <div class="field"><span class="label">Universitet:</span> Namangan Davlat Texnika Universiteti</div>
-            <div class="field"><span class="label">Fakultet:</span> Namangan Muhandislik-Texnologiya Instituti</div>
-            <div class="field"><span class="label">Yo‘nalish:</span> Kimyoviy texnologiya (ishlab chiqarish turlari bo‘yicha)</div>
-            <div class="field"><span class="label">Ta’lim turi:</span> Bakalavr</div>
-            <div class="field"><span class="label">Ta’lim shakli:</span> Qo‘shma</div>
-            <div class="field"><span class="label">Diploma toifasi:</span> Oddiy</div>
-            <div class="field"><span class="label">O‘qish muddati:</span> 4 yil</div>
-        </div>
-
-        <div class="qr">
-            <img src="qr.png" alt="QR Kod">
-        </div>
+    <div class="section-title">Talaba haqida:</div>
+    <div class="row">
+      <div class="label">Talaba (Ism Familya):</div>
+      <div class="value">"OYTUN YELDAN"</div>
     </div>
+    <div class="row">
+      <div class="label">Tug‘ilgan sana:</div>
+      <div class="value">"09.09.2002"</div>
+    </div>
+    <div class="row">
+      <div class="label">O‘qishga kirgan yili:</div>
+      <div class="value">"3.2"</div>
+    </div>
+    <div class="row">
+      <div class="label">Diplom raqami:</div>
+      <div class="value">"253454232"</div>
+    </div>
+    <div class="row">
+      <div class="label">O‘rtacha ball:</div>
+      <div class="value">"3.2"</div>
+    </div>
+    <div class="row">
+      <div class="label">Qayd sanasi:</div>
+      <div class="value">"2023"</div>
+    </div>
+
+    <div class="section-title">Sabit Ma'lumotlar:</div>
+    <div class="row">
+      <div class="label">Universitet:</div>
+      <div class="value">Namangan Davlat Texnika Universiteti</div>
+    </div>
+    <div class="row">
+      <div class="label">Fakultet:</div>
+      <div class="value">Namangan Muhandislik-Texnologiya Instituti</div>
+    </div>
+    <div class="row">
+      <div class="label">Yo‘nalish:</div>
+      <div class="value">Kimyoviy texnologiya (ishlab chiqarish turlari bo‘yicha)</div>
+    </div>
+    <div class="row">
+      <div class="label">Ta’lim turi:</div>
+      <div class="value">Bakalavr</div>
+    </div>
+    <div class="row">
+      <div class="label">Ta’lim shakli:</div>
+      <div class="value">Qo‘shma</div>
+    </div>
+    <div class="row">
+      <div class="label">Diploma toifasi:</div>
+      <div class="value">Oddiy</div>
+    </div>
+    <div class="row">
+      <div class="label">O‘qish muddati:</div>
+      <div class="value">4 yil</div>
+    </div>
+  </div>
 </body>
 </html>
