@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Diploma</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 50px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px;
+            border: 2px solid black;
+        }
+        .title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .section {
+            margin-top: 30px;
+        }
+        .field {
+            margin: 10px 0;
+        }
+        .label {
+            font-weight: bold;
+        }
+        .qr {
+            margin-top: 40px;
+            text-align: right;
+        }
+        .qr img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Diploma Ma'lumotlari</div>
+
+        <div class="section">
+            <div class="field"><span class="label">Talaba (Ism Familya):</span> OYTUN YELDAN</div>
+            <div class="field"><span class="label">Tug‘ilgan sana:</span> 09.09.2002</div>
+            <div class="field"><span class="label">O‘qishga kirgan yili:</span> 2020</div>
+            <div class="field"><span class="label">Diplom raqami:</span> 23423452</div>
+            <div class="field"><span class="label">O‘rtacha ball:</span> 3.2</div>
+            <div class="field"><span class="label">Qayd sanasi:</span> 2024</div>
+        </div>
+
+        <div class="section">
+            <div class="field"><span class="label">Universitet:</span> Namangan Davlat Texnika Universiteti</div>
+            <div class="field"><span class="label">Fakultet:</span> Namangan Muhandislik-Texnologiya Instituti</div>
+            <div class="field"><span class="label">Yo‘nalish:</span> Kimyoviy texnologiya (ishlab chiqarish turlari bo‘yicha)</div>
+            <div class="field"><span class="label">Ta’lim turi:</span> Bakalavr</div>
+            <div class="field"><span class="label">Ta’lim shakli:</span> Qo‘shma</div>
+            <div class="field"><span class="label">Diploma toifasi:</span> Oddiy</div>
+            <div class="field"><span class="label">O‘qish muddati:</span> 4 yil</div>
+        </div>
+
+        <div class="qr">
+            <img src="qr.png" alt="QR Kod">
+        </div>
+    </div>
+</body>
+</html>
